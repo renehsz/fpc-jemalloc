@@ -9,3 +9,6 @@ make dist; \
 make; \
 make install; \
 cd ..
+
+cp ./jemalloc/lib/libjemalloc.so ./libjemalloc.so
+
